@@ -12,4 +12,4 @@ Each card is an object of the class animal(). The animal class contains these pr
 
 The default full deck is a 1D array which contains all of the cards as animal classes.
 
-##
+## Game Loop
