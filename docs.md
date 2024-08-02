@@ -5,7 +5,7 @@ This documentation breaks down every mechanic of the game.
 
 ## Cards
 
-Each card is an object of the class animal(). The animal class contains these properties; name, ATK, DEF, COST, ELEMENT, ABILITY. They are all stored for each card. 
+Each card is an object of the class animal(). The animal class contains these properties; name, ATK, DEF, COST, ELEMENT, ABILITY. They are all stored inside each card. 
 
 
 ## Decks
