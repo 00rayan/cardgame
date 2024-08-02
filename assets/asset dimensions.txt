@@ -1,0 +1,7 @@
+Health Token: 150x150
+Background: 768x1366
+Cards placed: 78 x 123
+Cards in hand: 128 x 197 
+RESIZE CARDS IN GIMP:
+Position 40 x 137 px
+Size: 698 x 1078 px
