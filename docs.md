@@ -1,6 +1,6 @@
 # Documentations
 
-This documentations breaks down every mechanic of the game.
+This documentation breaks down every mechanic of the game.
 
 
 ## Cards
