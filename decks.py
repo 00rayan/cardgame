@@ -2,9 +2,7 @@
 from pygame_cards.set import CardsSet
 from animal_card import animal
 # Contains the cards for the full deck.
-full_deck = CardsSet(
-    # Air
-    [animal('bat',1,2,0,'air'),
+full_deck = [animal('bat',1,2,0,'air'), # Air
      animal('cockatil',1,1,0,'air'),
      animal('ghost',1,6,2,'air'),
      animal('owl',1,3,1,'air'),
@@ -47,9 +45,7 @@ full_deck = CardsSet(
     animal('shark',3,2,1,'water'),
     animal('squid',2,2,1,'water'),
     animal('turtle',1,6,1,'water'),
-    animal('whaleshark',1,3,1,'water'),
-    ]
-)
+    animal('whaleshark',1,3,1,'water')]
 
 # Contains the names of the cards in the full deck. 
 fd_assets = ['air_bat', 'air_cockatil', 'air_ghost', 'air_owl', 'air_pigeon', 'earth_brownbear', 'earth_capybara', 'earth_cat', 'earth_chicken', 'earth_cow', 'earth_deer', 'earth_feneco', 'earth_flamingo', 'earth_frog', 'earth_lizard', 'earth_mouse', 'earth_panda', 'earth_peacock', 'earth_pug', 'earth_rabbit', 'earth_redfox', 'earth_redpanda', 'earth_sheep', 'earth_snake', 'earth_unicorn', 'earth_whitefox', 'water_alligator', 'water_axolotl', 'water_beluga', 'water_bluewhale', 'water_dolphin', 'water_jellyfish', 'water_killerwhale', 'water_mantaray', 'water_narwhal', 'water_octopus', 'water_pinkdolphin', 'water_platypus', 'water_shark', 'water_squid', 'water_turtle', 'water_whaleshark']
