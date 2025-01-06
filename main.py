@@ -66,8 +66,8 @@ def game_start(deck): # FUNCTION FINISHED, MOVE ON!
     print(f"There are {len(Game.deck)} cards left in the deck")
     
     # Give players cards
-    Player1.hand.append(Animal('rabbit',0,1,0,'earth'))
-    Player2.hand.append(Animal('rabbit',0,1,0,'earth'))
+    Player1.hand.append(Animal('rabbit'))
+    Player2.hand.append(Animal('rabbit'))
     for index in range (3):
         # Give player 1 card
         card_pos = random.randint(0,len(Game.deck)-1)

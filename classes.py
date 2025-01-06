@@ -1,11 +1,8 @@
 # This file contains the animal card class.
-from dataclasses import dataclass
-from pygame_cards.abstract import AbstractCard
-from pygame_cards.set import CardsSet
-@dataclass
+
 # A template for an animal card.
 class Animal:
-    def init(self, name, attack, defense, cost, element):
+    def __init__(self, name, attack, defense, cost, element):
         self.name = name
         self.attack = attack
         self.defense = defense
@@ -13,7 +10,7 @@ class Animal:
         self.element = element # Can be earth, water or air.
 
 class Player:
-    def init(self, name):
+    def __init__(self, name):
         name = name
         self.hp = 5
         self.front_deck = [] * 4
