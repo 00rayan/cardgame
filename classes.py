@@ -13,8 +13,8 @@ class Player:
     def __init__(self, name):
         name = name
         self.hp = 5
-        self.front_deck = [] * 4
-        self.back_deck = [] * 4
+        self.front_deck = ['EMPTY'] * 4
+        self.back_deck = ['EMPTY'] * 4
         self.hand = []
 
 class Game:

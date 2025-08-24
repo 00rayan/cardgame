@@ -45,6 +45,7 @@ full_deck = [Animal('bat',1,2,0,'air'), # Air
     Animal('squid',2,2,1,'water'),
     Animal('turtle',1,6,1,'water'),
     Animal('whaleshark',1,3,1,'water')]
+animal_names = {Animal.name: Animal for Animal in full_deck}
 
 # Contains the names of the cards in the full deck. 
 fd_assets = ['air_bat', 'air_cockatil', 'air_ghost', 'air_owl', 'air_pigeon', 'earth_brownbear', 'earth_capybara', 'earth_cat', 'earth_chicken', 'earth_cow', 'earth_deer', 'earth_feneco', 'earth_flamingo', 'earth_frog', 'earth_lizard', 'earth_mouse', 'earth_panda', 'earth_peacock', 'earth_pug', 'earth_rabbit', 'earth_redfox', 'earth_redpanda', 'earth_sheep', 'earth_snake', 'earth_unicorn', 'earth_whitefox', 'water_alligator', 'water_axolotl', 'water_beluga', 'water_bluewhale', 'water_dolphin', 'water_jellyfish', 'water_killerwhale', 'water_mantaray', 'water_narwhal', 'water_octopus', 'water_pinkdolphin', 'water_platypus', 'water_shark', 'water_squid', 'water_turtle', 'water_whaleshark']
